@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>login</title>
+<link rel="stylesheet" type="text/css" href"style.css">
+<style>
+body{
+  
+  height:90vh;
+  background:url(sanj.jpg);
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  font-family:sans-serif;
+ 
+  }
+  .login-box{
+  margin-left:180px;
+	  width:350px;
+	  height:400px;
+	  background:rgba(0,0,0,0.5);
+	  color:#fff;
+	  top:40%;
+	  left:30%;
+	  position:absolute;
+	  transform:translate(-50%,-50%);
+	  box-sizing:border-box;
+	  
+  }
+  
+  .logo{
+	  width:100px;
+	  height:100px;
+	  border-radius:50%;
+	  position:absolute;
+	  top:-50%;
+	  left:calc(50%-50px);
+  }
+</style>
+</head>
+<body>
+
+		
+		<div class="container">
+
+			<div class="row">
+			<br>
+			<div class="col-md-3 col-sm-3 "></div>
+				<div class="col-md-6 col-sm-6 box">
+				
+					<form class="login-box" method=post action=login.php>
+					<center><h1>Login Here<h1></center>
+					<center><h3 class="text-center">Sign in to start your session</h3><br></center>
+					<center><p>Username</p></center>
+						<center><input type="email" name="email" placeholder="Enter username"><br>	</center>
+                    <center> <p>Password</p></center>						
+						<center><input type="password" name="password" placeholder="Enter Password"><br><br></center>
+						<center><input type="submit" name="sub" value="Submit">		</center>				
+
+					</form>
+				</div>
+			<div class="col-md-3 col-sm-3"></div>
+
+			</div>
+		</div>
+
+    
+</diV>
+</body>
+</html>
